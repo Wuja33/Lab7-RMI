@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SeekerApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SeekerApp_jar</output-path>
+    <root id="archive" name="SeekerApp.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/manifest/SeekerApp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="LabRMI" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/treasures.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
